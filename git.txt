@@ -1,0 +1,12 @@
+- É um sistema de controle de versão
+- Controle de versão é o que faz o merge entre as versões (Git, CVS, SVN, Mercurial, Bazaar...)
+- Git é distribuido = Controle de versão sem estar conectado no servidor. Cada pessoa que está desenvolvendo o código tem uma cópia do repositório.
+- Git = ferramenta de controle de versão
+- GitHub = servidor de repositórios Git (GitHub, GitLab, Bitbucket, SourceForge...)
+- sudo apt-get install git
+- interface recomendada: GitEye (tipo do SmartGit do Labbio), mas da pra fazer tudo por linha de comando
+- SSH Key
+
+----------------------------------------
+
+- git init = inicializa um repositório Git vazio no diretório atual
