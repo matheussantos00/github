@@ -5,8 +5,31 @@
 - GitHub = servidor de repositórios Git (GitHub, GitLab, Bitbucket, SourceForge...)
 - sudo apt-get install git
 - interface recomendada: GitEye (tipo do SmartGit do Labbio), mas da pra fazer tudo por linha de comando
-- SSH Key
+- SSH Key (não funcionou, não sei pq)
+- push e fetch = push envia pro repositório remoto os commits de uma branch, e fetch baixa do repositório remoto
+- o push é rejeitado se seu repositóri olocal não estiver atualizado
+- git config --global core."editor"
+- git clone "url" = baixa o repositório remoto
+- git pull = mantém o repositório local atualizado com os commits de uma branch. Baixa as alterações do repositório remoto
 
 ----------------------------------------
+REPOSITÓRIO LOCAL
 
 - git init = inicializa um repositório Git vazio no diretório atual
+- git add "documento" = adiciona o documento, que já está no diretório onde foi feito o git init, ao conteúdo que será commitado. (git add . = adiciona tudo e não precisa ir em documento por documento)
+- git commit ou git commit -m "mensagem"
+- git config ou git config --global = identificação
+- git status
+- git log = quem fez o commit, a data e a mensagem
+
+----------------------------------------
+REPOSITÓRIO REMOTO
+
+- push an existing repository from the command line:
+
+git remote add origin https://github.com/matheussantos00/github.git
+git push -u origin master
+
+
+
+
