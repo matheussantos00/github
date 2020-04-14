@@ -1,5 +1,5 @@
 master
-master
-master
+branch 1
+branch 2
 branch A
 branch B
